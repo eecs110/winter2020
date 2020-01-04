@@ -30,12 +30,19 @@ A second goal of the course is to introduce you to the fundamental constructs of
 
 ### Peer Mentors
 
-* Josh Kennedy (JoshuaKennedy2021@u.northwestern.edu)
-* Suzy Lee (SujungLee2020@u.northwestern.edu)
+* Alberta Yoo (AlbertaYoo2021@u.northwestern.edu)
+* Ariella Silver (AriellaSilver2022@u.northwestern.edu)
+* Faraaz Beyabani (FaraazBeyabani2020@u.northwestern.edu)
+* Joshua Kennedy (JoshuaKennedy2021@u.northwestern.edu)
+* Kevin Hou	KevinHou2022@u.northwestern.edu)
+* Olivia Gallager (OliviaGallager2021@u.northwestern.edu)
+* Peter Zhong (PeterZhong2023@u.northwestern.edu)
+* Poom Sombutboon (PoomSombutboon2022@u.northwestern.edu)
+* Suzy Lee (sujung.lee@northwestern.edu)
 
 ### Graduate Teaching Assistants
 
-* TBD
+* Mohammed Alam (MohammedAlam2009@u.northwestern.edu)
 
 ## Course Materials and Resources
 
