@@ -30,4 +30,4 @@ remote_theme: "eecs110/just-the-docs@v1"
 
 aux_links:
     "Piazza <i class='fas fa-external-link-alt'></i>":
-      - "//piazza.com/northwestern/winter2020/eecs110/home"
+      - "//piazza.com/northwestern/winter2020/cs110/home"

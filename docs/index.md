@@ -28,7 +28,8 @@ permalink: /
             <td>
                 <strong>Tu Jan 7</strong><br>
                 Introduction to programming with Python<br>
-                <span class="tbd">slides</span>
+                <a href="https://docs.google.com/presentation/d/1FqFQVmfvowDGIP_wPWqFwCzN-8tijt9XVnkC6JlQnoc/edit?usp=sharing" target="_blank">slides 1</a> &bull; 
+                <a href="https://docs.google.com/presentation/d/19kgLiX6Py3kBWgxclibuTc77ke57ODFxjXyeCfGqOZo/edit?usp=sharing" target="_blank">slides 2</a> 
             </td>
             <td>
                 <ol>
@@ -82,7 +83,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <span class="label label-green">Homework 1</span>
+                <a href="course-files/homework/hw01/README" class="label label-green" target="_blank">Homework 1 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr class="done">

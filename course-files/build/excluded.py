@@ -1,6 +1,6 @@
 EXCLUDED = [
     'projects',
-    'homework',
+    #'homework',
     'lectures',
     'exams',
     'practice_exams',
