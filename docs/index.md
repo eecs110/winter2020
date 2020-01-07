@@ -8,7 +8,7 @@ title: Schedule
 permalink: /
 ---
 # Schedule
-> This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on Thursday at 11:59PM.
+> This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on Tuesday at 11:59PM.
 
 <table class="schedule">
     <thead>
