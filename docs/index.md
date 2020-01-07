@@ -95,7 +95,7 @@ permalink: /
             </td>
             <td>
                 <ol>
-                    <li>Review Tuesday's (4/9) readings</li>
+                    <li>Review Tuesday's readings (Jan 14)</li>
                     <li>Python for Everyone: Lists <a href="#[1]"><sup>[1]</sup></a><br>
                     <a href="">videos</a> | <a href="https://www.py4e.com/html3/08-lists">textbook</a></li>
                     <li>Python for Everyone: Tuples<br>
