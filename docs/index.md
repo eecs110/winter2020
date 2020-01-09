@@ -50,7 +50,7 @@ permalink: /
                 - Variables, operators, and data types<br>
                 - Installing Anaconda + VS Code<br>
                 <a href="https://docs.google.com/presentation/d/1AtMSOPFvdXgVchltHV-LQdCKGYzFQlBefMGseN_c9jk/edit?usp=sharing" target="_blank">slides</a> &bull;
-                <a href="lectures/course_files/lecture_02.zip">lecture files</a>
+                <a href="course-files/lectures/lecture_02.zip">lecture files</a>
                 
             </td> 
             <td>
