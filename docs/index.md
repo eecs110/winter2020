@@ -84,7 +84,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <a href="course-files/homework/hw01/README" class="label label-green" target="_blank">Homework 1 <i class="fas fa-link"></i></a>
+                
             </td>
         </tr>
         <tr class="done">
@@ -103,7 +103,9 @@ permalink: /
                     <a href="https://www.py4e.com/lessons/tuples">videos</a> | <a href="https://www.py4e.com/html3/10-tuples">textbook</a></li>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <a href="course-files/homework/hw01/README" class="label label-green" target="_blank">Homework 1 <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- WEEK #3 -->
         <tr class="done">
