@@ -123,7 +123,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <span class="label label-green">Homework 2 </span>
+                
             </td>
         </tr>
         <tr class="done">
@@ -140,7 +140,9 @@ permalink: /
                     <li><a href="http://openbookproject.net/thinkcs/python/english3e/iteration.html" target="_blank">ThinkCS, Ch7</a></li>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <a href="course-files/homework/hw01/README" class="label label-green">Homework 2 <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- WEEK #4 -->
         <tr class="done">

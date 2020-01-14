@@ -45,7 +45,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">1/9/2020 6:25 AM</td>
+            <td align="right">1/13/2020 9:52 PM</td>
             <td>11.6KB</td>
             <td>
             </td>
