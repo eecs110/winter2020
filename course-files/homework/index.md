@@ -54,7 +54,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">1/13/2020 9:52 PM</td>
+            <td align="right">1/14/2020 11:20 AM</td>
             <td>602.0B</td>
             <td>
             </td>
@@ -66,8 +66,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">1/13/2020 9:52 PM</td>
-            <td>3.4KB</td>
+            <td align="right">1/14/2020 11:20 AM</td>
+            <td>3.5KB</td>
             <td>
             </td>
         </tr>

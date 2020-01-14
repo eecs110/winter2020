@@ -71,7 +71,9 @@ permalink: /
             <td>
                 <strong>Tu Jan 14</strong><br>
                 Functions and modules<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1UbL3AtOccCKNVmKfDzkK7fyAG1k_Y4r4co5HUSteL34/edit?usp=sharing" target="_blank">slides</a>
+                &bull;
+                <a href="course-files/lectures/lecture_03.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -141,7 +143,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <a href="course-files/homework/hw01/README" class="label label-green">Homework 2 <i class="fas fa-link"></i></a>
+                <a href="course-files/homework/hw02/README" class="label label-green">Homework 2 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #4 -->

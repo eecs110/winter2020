@@ -370,5 +370,16 @@ iframe {
 }
 
 .summary-table {
-    max-width: 500px;
+    border: 0px !important;
+    margin-top: 40px;
+    max-width: 400px;
+    td {
+        border: none;
+        padding: 6px;
+        background: #F6F6F6;
+    }
+    td:first-child {
+        font-weight: 600;
+        width: 130px;
+    }
 }
