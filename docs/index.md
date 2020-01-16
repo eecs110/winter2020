@@ -94,7 +94,9 @@ permalink: /
             <td>
                 <strong>Th Jan 16</strong><br>
                 Functions continued; lists and tuples (sequences)<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1-J3SsOCC_iIPDMhjxRtIOzEkg4rdPZS2sTyUra2p-V4/edit?usp=sharing" target="_blank">slides</a>
+                &bull;
+                <a href="course-files/lectures/lecture_04.zip">lecture files</a>
             </td>
             <td>
                 <ol>
