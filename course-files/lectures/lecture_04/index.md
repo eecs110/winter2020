@@ -237,6 +237,34 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
+                    <a href="15_tkinter_demo.py">15_tkinter_demo.py</a>
+            </td>
+            <td align="right">1/16/2020 1:24 PM</td>
+            <td>589.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_04/15_tkinter_demo.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="helpers.py">helpers.py</a>
+            </td>
+            <td align="right">1/16/2020 12:33 PM</td>
+            <td>1003.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_04/helpers.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
                     <a href="my_module.py">my_module.py</a>
             </td>
             <td align="right">1/15/2020 10:46 PM</td>
