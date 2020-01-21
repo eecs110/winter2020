@@ -13,3 +13,4 @@ print('\n')
 
 # Write a function that prints a message for any name 
 # with enough stars to exactly match the length of the message.
+# Hint: Use the len() function.

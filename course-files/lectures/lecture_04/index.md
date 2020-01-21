@@ -141,8 +141,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="08_activity.py">08_activity.py</a>
             </td>
-            <td align="right">1/15/2020 10:46 PM</td>
-            <td>309.0B</td>
+            <td align="right">1/21/2020 12:56 PM</td>
+            <td>341.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_04/08_activity.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -155,7 +155,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="09_activity.py">09_activity.py</a>
             </td>
-            <td align="right">1/15/2020 10:46 PM</td>
+            <td align="right">1/21/2020 12:56 PM</td>
             <td>174.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_04/09_activity.py"

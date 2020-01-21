@@ -117,7 +117,9 @@ permalink: /
             <td>
                 <strong>Tu Jan 21</strong><br>
                 - Functions and Modules (more practice)<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1D7bG0QfVZjfS6p-huWqAem_P6U96wvjI4h_UVJoDRNI/edit?usp=sharing" target="_blank">slides</a> 
+                &bull; 
+                <a href="course-files/lectures/lecture_05.zip">lecture files</a>
             </td>
             <td>
                 <ol>
