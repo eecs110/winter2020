@@ -65,6 +65,15 @@ nav_exclude: False
             <td>480.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="lecture_06">lecture_06</a></td>
+            <td align="right">1/23/2020 12:47 PM</td>
+            <td>448.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file-archive"></i>
@@ -72,7 +81,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">1/21/2020 12:57 PM</td>
+            <td align="right">1/23/2020 1:17 PM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -84,7 +93,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">1/21/2020 12:57 PM</td>
+            <td align="right">1/23/2020 1:17 PM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -96,7 +105,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">1/21/2020 12:57 PM</td>
+            <td align="right">1/23/2020 1:17 PM</td>
             <td>9.4KB</td>
             <td>
             </td>
@@ -108,8 +117,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_05.zip">lecture_05.zip</a>
             </td>
-            <td align="right">1/21/2020 12:57 PM</td>
+            <td align="right">1/23/2020 1:17 PM</td>
             <td>7.0KB</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="lecture_06.zip">lecture_06.zip</a>
+            </td>
+            <td align="right">1/23/2020 1:17 PM</td>
+            <td>5.3KB</td>
             <td>
             </td>
         </tr>
