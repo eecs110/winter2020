@@ -137,10 +137,10 @@ permalink: /
             <td>
                 <strong>Th Jan 23</strong><br>
                 Conditional Execution<br>
+
                 <a href="https://docs.google.com/presentation/d/1D7bG0QfVZjfS6p-huWqAem_P6U96wvjI4h_UVJoDRNI/edit?usp=sharing" target="_blank">slides (from Tuesday)</a> 
                 &bull;
                 <a href="https://docs.google.com/presentation/d/1FcXDyB1gN1ViHJaWGH3lCRoIL-kabO0oZTrBjA-Zl0w/edit?usp=sharing" target="_blank">slides (today)</a> 
-                lecture files</span>
                 &bull;
                 <a href="course-files/lectures/lecture_06.zip">lecture files</a>
             </td>
