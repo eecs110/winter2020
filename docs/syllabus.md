@@ -113,6 +113,8 @@ We will still accept late homework up to 48 hours after the original due date, b
 
 If you would like to re-submit your homework, you have **one week** to revise and re-submit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you re-submit after first turning in a late homework assignment, you can only receive a maximum of 3.5/5 points. If you did not turn anything in (within 48 hours of the due date), you may not re-submit.
 
+> If you resubmit, please fill out <a href="https://forms.gle/3UfN4LBBu653yedt7" target="_blank">this form</a> to let us know that we need to re-grade your submission.
+
 In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don't want to.
 {: .prose}
 

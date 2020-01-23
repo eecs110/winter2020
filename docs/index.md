@@ -183,7 +183,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-green">Homework 3</span>
+                <a href="course-files/homework/hw03/README" class="label label-green">Homework 3 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #5 -->
