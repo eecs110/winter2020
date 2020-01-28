@@ -27,6 +27,15 @@ nav_exclude: True
             <td>&nbsp;</td>
         </tr>
 
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="inspiration">inspiration</a></td>
+            <td align="right">1/25/2020 10:28 AM</td>
+            <td>128.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file"></i>

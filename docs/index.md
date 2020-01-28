@@ -137,10 +137,7 @@ permalink: /
             <td>
                 <strong>Th Jan 23</strong><br>
                 Conditional Execution<br>
-
-                <a href="https://docs.google.com/presentation/d/1D7bG0QfVZjfS6p-huWqAem_P6U96wvjI4h_UVJoDRNI/edit?usp=sharing" target="_blank">slides (from Tuesday)</a> 
-                &bull;
-                <a href="https://docs.google.com/presentation/d/1FcXDyB1gN1ViHJaWGH3lCRoIL-kabO0oZTrBjA-Zl0w/edit?usp=sharing" target="_blank">slides (today)</a> 
+                <a href="https://docs.google.com/presentation/d/1FcXDyB1gN1ViHJaWGH3lCRoIL-kabO0oZTrBjA-Zl0w/edit?usp=sharing" target="_blank">slides</a> 
                 &bull;
                 <a href="course-files/lectures/lecture_06.zip">lecture files</a>
             </td>
@@ -160,8 +157,10 @@ permalink: /
             <td>Week 4</td>
             <td>
                 <strong>Tu Jan 28</strong><br>
-                Loops and Lists<br>
-                <span class="tbd">slides | lecture files</span>
+                More on Conditional Execution, Intro to While Loops<br>
+                <a href="https://docs.google.com/presentation/d/1-zmBgmiydc_bEpRz9vGDwm53Jsc1JUX3yEz_cg_kaaI/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_07.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -177,9 +176,11 @@ permalink: /
         <tr class="done">
             <td></td>
             <td>
-                <strong>Th Jan 30</strong><br>
-                Iteration and looping algorithms (Continued)<br>
-                <span class="tbd">slides | lecture files</span>
+            <strong>Th Jan 30</strong><br>
+                Loops and Lists<br>
+                <a href="https://docs.google.com/presentation/d/1u2LpgJ2bLmM-qv-mmlKWWRDD8k4H2TUwWPc-cF5cEiM/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_08.zip">lecture files</a>
             </td>
             <td></td>
             <td>

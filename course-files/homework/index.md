@@ -52,8 +52,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="hw03">hw03</a></td>
-            <td align="right">1/23/2020 3:43 PM</td>
-            <td>320.0B</td>
+            <td align="right">1/25/2020 10:22 AM</td>
+            <td>352.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -63,7 +63,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">1/23/2020 3:49 PM</td>
+            <td align="right">1/28/2020 9:01 AM</td>
             <td>602.0B</td>
             <td>
             </td>
@@ -75,7 +75,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">1/23/2020 3:49 PM</td>
+            <td align="right">1/28/2020 9:01 AM</td>
             <td>3.5KB</td>
             <td>
             </td>
@@ -87,8 +87,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw03.zip">hw03.zip</a>
             </td>
-            <td align="right">1/23/2020 3:49 PM</td>
-            <td>2.7KB</td>
+            <td align="right">1/28/2020 9:01 AM</td>
+            <td>20.6MB</td>
             <td>
             </td>
         </tr>
