@@ -216,7 +216,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-green">Homework 4 </span>
+                <a href="course-files/homework/hw04/README" class="label label-green">Homework 4 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #6 -->
