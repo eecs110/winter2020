@@ -178,10 +178,9 @@ permalink: /
             <td>
             <strong>Th Jan 30</strong><br>
                 Loops and Lists<br>
-                <span class="tbd">slides | lecture files</span>
-                <!-- <a href="https://docs.google.com/presentation/d/1u2LpgJ2bLmM-qv-mmlKWWRDD8k4H2TUwWPc-cF5cEiM/edit?usp=sharing" target="_blank">slides</a> 
+                <a href="https://docs.google.com/presentation/d/1u2LpgJ2bLmM-qv-mmlKWWRDD8k4H2TUwWPc-cF5cEiM/edit?usp=sharing" target="_blank">slides</a> 
                 &bull;
-                <a href="course-files/lectures/lecture_08.zip">lecture files</a> -->
+                <a href="course-files/lectures/lecture_08.zip">lecture files</a>
             </td>
             <td></td>
             <td>

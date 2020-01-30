@@ -48,7 +48,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="creature.py">creature.py</a>
             </td>
-            <td align="right">1/23/2020 3:43 PM</td>
+            <td align="right">1/30/2020 10:58 AM</td>
             <td>468.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw03/creature.py"
@@ -76,7 +76,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="main.py">main.py</a>
             </td>
-            <td align="right">1/23/2020 3:43 PM</td>
+            <td align="right">1/30/2020 10:59 AM</td>
             <td>569.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw03/main.py"
