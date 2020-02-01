@@ -192,6 +192,15 @@ permalink: /
             <td>Week 5</td>
             <td>
                 <strong>Tu Feb 4</strong><br>
+                Iteration and looping algorithms (Continued)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="done">
+            <td></td>
+            <td>
+                <strong>Th Feb 6</strong><br>
                 User Input and Events<a href="#[2]"><sup>[2]</sup></a><br>
                 <span class="tbd">slides | lecture files</span>
             </td>
@@ -205,36 +214,38 @@ permalink: /
                     </li>
                 </ol>
             </td>
-            <td></td>
-        </tr>
-        <tr class="done">
-            <td></td>
-            <td>
-                <strong>Th Feb 6</strong><br>
-                Exam 1 review<br>
-                <span class="tbd">slides | lecture files</span>
-            </td>
-            <td></td>
             <td>
                 <a href="course-files/homework/hw04/README" class="label label-green">Homework 4 <i class="fas fa-link"></i></a>
             </td>
         </tr>
-        <!-- WEEK #6 -->
+         <!-- WEEK #6 -->
         <tr>
             <td>Week 6</td>
             <td>
                 <strong>Tu Feb 11</strong><br>
-                Exam 1
+                Exam 1 review<br>
+                <span class="tbd">slides | lecture files</span>
             </td>
-            <td>
-            </td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>
                 <strong>Th Feb 13</strong><br>
-                Data: Strings and files<br>
+                Exam 1
+            </td>
+            <td></td>
+            <td>
+                <a href="https://drive.google.com/drive/u/0/folders/1YuNTuYVbNpypQ5RCu4v27cxvaM7zUlZS" class="label" target="_blank">Exam 1 Practice <i class="fas fa-link"></i></a>
+            </td>
+        </tr>
+        <!-- WEEK #7 -->
+        <tr>
+            <td>Week 7</td>
+            <td>
+                <strong>Tu Feb 18</strong><br>
+                     Data: Strings and files<br>
                 <span class="tbd">slides | lecture files</span>
             </td>
             <td>
@@ -247,13 +258,12 @@ permalink: /
                     </li>
                 </ol>
             </td>
-            <td></td>
+            <td></td> 
         </tr>
-        <!-- WEEK #7 -->
         <tr>
-            <td>Week 7</td>
+            <td></td>
             <td>
-                <strong>Tu Feb 18</strong><br>
+                <strong>Th Feb 20</strong><br>
                 Data: Dictionaries and lists<br>
                 <span class="tbd">slides | lecture files</span>
             </td>
@@ -261,22 +271,6 @@ permalink: /
                 <ol>
                     <li>Severance, Ch 9: Dictionaries<br>
                     <a href="https://www.py4e.com/lessons/dictionary">videos</a> | <a href="https://www.py4e.com/html3/09-dictionaries">textbook</a></li>
-                </ol>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>Th Feb 20</strong><br>
-                Data: Dictionary algorithms<br>
-                <span class="tbd">slides | lecture files</span>
-            </td>
-            <td>
-                <ol>
-                    <li>
-                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 11</a>
-                    </li>
                 </ol>
             </td>
             <td>
@@ -288,6 +282,22 @@ permalink: /
             <td>Week 8</td>
             <td>
                 <strong>Tu Feb 25</strong><br>
+                Data: Dictionary algorithms<br>
+                <span class="tbd">slides | lecture files</span>
+            </td>
+            <td>
+                <ol>
+                    <li>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 11</a>
+                    </li>
+                </ol>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <strong>Th Feb 27</strong><br>
                 Dictionaries + Intro to Pandas & Matplotlib<br>
                 <span class="tbd">slides | lecture files</span>
             </td>
@@ -295,33 +305,20 @@ permalink: /
                 <ol>
                     <li>Severance, Ch 13: Web Services<br>
                     <a href="https://www.py4e.com/lessons/servces">videos</a> | <a href="https://www.py4e.com/html3/13-web">textbook</a></li>
-                </ol></td>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>Th Feb 27</strong><br>
-                Intro to cloud-based data services<br>
-                <span class="tbd">slides | lecture files</span>
+                </ol>
             </td>
             <td></td>
-            <td>
-                <span class="label label-green">Homework 5 </span>
-            </td>
         </tr>
         <!-- WEEK #9 -->
         <tr>
             <td>Week 9</td>
             <td>
                 <strong>Tu Mar 3</strong><br>
-                More practice with cloud-based data services<br>
+                Intro to cloud-based data services<br>
                 <span class="tbd">slides | lecture files</span>
             </td>
-            <td>TBD</td>
-            <td>
-            </td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td></td>
