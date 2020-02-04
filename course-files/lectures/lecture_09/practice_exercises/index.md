@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Course Files
-has_children: true
-nav_order: 3
-nav_exclude: False
+title: Practice Exercises
+nav_exclude: True
 ---
 
-# Course Files
+# Practice Exercises
 
-[course-files/](.)
+[course-files/lectures/lecture_09/practice_exercises/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -33,18 +31,18 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="homework">homework</a></td>
-            <td align="right">1/30/2020 12:37 PM</td>
-            <td>384.0B</td>
+            <td><a href="exercise_1">exercise_1</a></td>
+            <td align="right">12/17/2019 4:56 PM</td>
+            <td>192.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="lectures">lectures</a></td>
-            <td align="right">2/4/2020 1:19 PM</td>
-            <td>608.0B</td>
+            <td><a href="exercise_2">exercise_2</a></td>
+            <td align="right">12/17/2019 4:56 PM</td>
+            <td>288.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>

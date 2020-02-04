@@ -192,7 +192,10 @@ permalink: /
             <td>Week 5</td>
             <td>
                 <strong>Tu Feb 4</strong><br>
-                Iteration and looping algorithms (Continued)
+                Iteration and looping algorithms (Continued)<br>
+                <a href="https://docs.google.com/presentation/d/16VqpTF6gTbTS5tsC5VMERi0NBX8FnA-h7NpKTU5EucI/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_09.zip">lecture files</a>   
             </td>
             <td></td>
             <td></td>
