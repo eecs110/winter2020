@@ -101,6 +101,15 @@ nav_exclude: False
             <td>640.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="lecture_10">lecture_10</a></td>
+            <td align="right">12/17/2019 4:56 PM</td>
+            <td>192.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file-archive"></i>
@@ -108,7 +117,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -120,7 +129,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -132,7 +141,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>9.4KB</td>
             <td>
             </td>
@@ -144,7 +153,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_05.zip">lecture_05.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>7.0KB</td>
             <td>
             </td>
@@ -156,7 +165,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_06.zip">lecture_06.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>2.0KB</td>
             <td>
             </td>
@@ -168,7 +177,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_07.zip">lecture_07.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>5.7KB</td>
             <td>
             </td>
@@ -180,7 +189,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_08.zip">lecture_08.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>6.8KB</td>
             <td>
             </td>
@@ -192,8 +201,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_09.zip">lecture_09.zip</a>
             </td>
-            <td align="right">2/4/2020 1:19 PM</td>
+            <td align="right">2/6/2020 12:30 PM</td>
             <td>19.3KB</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="lecture_10.zip">lecture_10.zip</a>
+            </td>
+            <td align="right">2/6/2020 12:30 PM</td>
+            <td>18.2KB</td>
             <td>
             </td>
         </tr>

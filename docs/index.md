@@ -204,8 +204,12 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Feb 6</strong><br>
-                User Input and Events<a href="#[2]"><sup>[2]</sup></a><br>
-                <span class="tbd">slides | lecture files</span>
+                User Input and Events<a href="#[2]"><sup>[2]</sup></a>
+                <br>
+                <a href="https://docs.google.com/presentation/d/1TcZJXv1pBMKEux61cXom1qvup7h5EH2ASD2dxjng3a4/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_10.zip">lecture files</a>  
+                
             </td>
             <td>
                 <ol>
