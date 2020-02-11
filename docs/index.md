@@ -301,7 +301,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <a href="https://docs.google.com/document/d/16DKHCKL4qQOxsXHzQ0rk244YOQ3kWCk49izeDpIfcOE/edit?usp=sharing" target="_blank" class="label label-purple">Project 1 <i class="fas fa-link"></a>
+                <a href="https://docs.google.com/document/d/16DKHCKL4qQOxsXHzQ0rk244YOQ3kWCk49izeDpIfcOE/edit?usp=sharing" target="_blank" class="label label-purple">Project 1 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr>
