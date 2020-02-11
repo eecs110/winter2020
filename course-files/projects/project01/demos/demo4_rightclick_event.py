@@ -32,13 +32,8 @@ def make_circle(event):
 
 def remove_circle(event):
     # http://effbot.org/tkinterbook/canvas.htm#reference
-    shape_ids = canvas.find_overlapping(
-        event.x - 1, 
-        event.y - 1, 
-        event.x + 1, 
-        event.y + 1)
-    for id in shape_ids:
-        canvas.delete(id)
+    tag = utilities.get_tag_from_x_y_coordinate(canvas, event.x, event.y)
+    utilities.delete_by_tag(canvas, tag)
 
 canvas.bind(MOUSE_CLICK, make_circle)
 canvas.bind(RIGHT_CLICK, remove_circle)

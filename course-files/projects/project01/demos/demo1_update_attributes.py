@@ -20,22 +20,20 @@ canvas.pack()
 ########################## YOUR CODE BELOW THIS LINE ##############################
 # http://effbot.org/tkinterbook/tkinter-events-and-bindings.htm
 
-MOUSE_CLICK = '<Button-1>'
-canvas.create_text(
-    (window_width / 2, window_height / 2), 
-    text='Click anywhere add a creature', 
-    font=("Purisa", 32)
+
+helpers.make_creature(
+    canvas,
+    (200, 200),
+    random.uniform(40, 150), # random width
+    fill='white',
+    tag='my_creature'
 )
-def make_creature_from_click(event):
-    helpers.make_creature(
-        canvas,
-        (event.x, event.y),
-        random.uniform(40, 150), # random width
-        fill='white'
-    )
+gui.update()
 
-canvas.bind(MOUSE_CLICK, make_creature_from_click)  # add event handler
-
+# wait three seconds and then turn the creature yellow:
+time.sleep(3)
+utilities.update_fill_by_tag(canvas, 'my_creature', color = 'yellow')
+gui.update()
 ########################## YOUR CODE ABOVE THIS LINE ############################## 
 
 # makes sure the canvas keeps running:

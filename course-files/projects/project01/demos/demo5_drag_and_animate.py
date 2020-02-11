@@ -50,7 +50,7 @@ while True:
         speed = -1 * item['speed']
         if utilities.get_bottom(canvas, tag) < 0:
             reset_position = window_height + utilities.get_width(canvas, tag)
-            utilities.update_position(canvas, tag=tag, y=reset_position)
-        utilities.update_position(canvas, tag=tag, x=0, y=speed)
+            utilities.update_position_by_tag(canvas, tag=tag, y=reset_position)
+        utilities.update_position_by_tag(canvas, tag=tag, x=0, y=speed)
     gui.update()
     time.sleep(0.002)

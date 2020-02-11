@@ -53,7 +53,7 @@ canvas.grid(column=0, row=1, sticky=W)
 utilities.make_circle(canvas, (200, 200), 20, color='hotpink', tag='my_circle')
 
 while True:
-    utilities.update_position(canvas, 'my_circle', 2, 0)
+    utilities.update_position_by_tag(canvas, 'my_circle', 2, 0)
     time.sleep(0.01)
     gui.update()
 

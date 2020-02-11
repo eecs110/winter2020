@@ -6,10 +6,6 @@ import time
 import random
 
 # 0. Initialize global variables and functions:
-UP_KEY = 8320768
-DOWN_KEY = 8255233
-LEFT_KEY = 8124162
-RIGHT_KEY = 8189699
 MOUSE_CLICK = '<Button-1>'
 RIGHT_CLICK = '<Button-2>'
 KEY_PRESS = '<Key>'

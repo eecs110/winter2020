@@ -28,31 +28,20 @@ canvas.create_text(
 )
 
 # need a global variable to store which item should be clicked:
-
-
 active_tag = None
+
 def select_circle(event):
     global active_tag
-    # un-color current active circle:
+    
+    # if something is already active, deactivate it:
     if active_tag:
-        ids = canvas.find_withtag(active_tag)
-        for id in ids:
-            canvas.itemconfig(id, fill='hotpink')
-
-    try:
-        shape_ids = canvas.find_overlapping(
-            event.x - 1, 
-            event.y - 1, 
-            event.x + 1, 
-            event.y + 1)
-        shape_id = shape_ids[-1] # get the top shape
-        current_tag = canvas.gettags(shape_id)
-        active_tag = current_tag[0]
-        
-        # just for debugging purposes:
-        canvas.itemconfig(shape_id, fill='yellow')
-    except:
-        print('error: none found')
+        utilities.update_fill_by_tag(canvas, active_tag, 'hotpink')
+        active_tag = None
+    
+    # get new active tag:
+    active_tag = utilities.get_tag_from_x_y_coordinate(canvas, event.x, event.y)
+    if active_tag:
+        utilities.update_fill_by_tag(canvas, active_tag, 'yellow')
 
 
 def move_circle(event):
@@ -73,7 +62,7 @@ def move_circle(event):
     delta_y = -1 * (current_y - event.y)
 
     # move the shape:
-    utilities.update_position(canvas, active_tag, x=delta_x, y=delta_y)
+    utilities.update_position_by_tag(canvas, active_tag, x=delta_x, y=delta_y)
 
 counter = 1
 def make_circle(x, y):

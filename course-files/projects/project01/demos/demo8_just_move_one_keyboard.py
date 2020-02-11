@@ -6,6 +6,7 @@ import helpers
 import utilities
 import time
 import random
+import keycodes
 
 gui = Tk()
 gui.title('Tour of options...')
@@ -17,10 +18,6 @@ canvas = Canvas(gui, width=window_width, height=window_height, background='white
 canvas.pack()
 
 ########################## YOUR CODE BELOW THIS LINE ##############################
-UP_KEY = 8320768
-DOWN_KEY = 8255233
-LEFT_KEY = 8124162
-RIGHT_KEY = 8189699
 MOUSE_CLICK = '<Button-1>'
 # DOUBLE_CLICK = '<Double-Button-1>'  # couldn't get it to work
 RIGHT_CLICK = '<Button-2>'
@@ -32,26 +29,21 @@ canvas.create_text(
 )
 
 # need a global variable to store which item should be clicked:
-
-
 active_tag = None
+
 def select_circle(event):
     global active_tag
-    canvas.focus_set()
-    try:
-        shape_ids = canvas.find_overlapping(
-            event.x - 1, 
-            event.y - 1, 
-            event.x + 1, 
-            event.y + 1)
-        shape_id = shape_ids[-1] # get the top shape
-        current_tag = canvas.gettags(shape_id)
-        active_tag = current_tag[0]
-        
-        # just for debugging purposes:
-        canvas.itemconfig(shape_id, fill='yellow')
-    except:
-        print('error: none found')
+    
+    # if something is already active, deactivate it:
+    if active_tag:
+        utilities.update_fill_by_tag(canvas, active_tag, 'hotpink')
+        active_tag = None
+    
+    # get new active tag:
+    active_tag = utilities.get_tag_from_x_y_coordinate(canvas, event.x, event.y)
+    if active_tag:
+        utilities.update_fill_by_tag(canvas, active_tag, 'yellow')
+
 
 
 counter = 1
@@ -69,14 +61,14 @@ def make_circle(event):
 
 def move_circle(event):
     distance = 10
-    if event.keycode == UP_KEY:
-        utilities.update_position(canvas, tag=active_tag, x=0, y=-distance)
-    elif event.keycode == DOWN_KEY:
-        utilities.update_position(canvas, tag=active_tag, x=0, y=distance)
-    elif event.keycode == LEFT_KEY:
-        utilities.update_position(canvas, tag=active_tag, x=-distance, y=0)
-    elif event.keycode == RIGHT_KEY:
-        utilities.update_position(canvas, tag=active_tag, x=distance, y=0)
+    if event.keycode == keycodes.get_up_keycode():
+        utilities.update_position_by_tag(canvas, tag=active_tag, x=0, y=-distance)
+    elif event.keycode == keycodes.get_down_keycode():
+        utilities.update_position_by_tag(canvas, tag=active_tag, x=0, y=distance)
+    elif event.keycode == keycodes.get_left_keycode():
+        utilities.update_position_by_tag(canvas, tag=active_tag, x=-distance, y=0)
+    elif event.keycode == keycodes.get_right_keycode():
+        utilities.update_position_by_tag(canvas, tag=active_tag, x=distance, y=0)
     else:
         print(event.keycode)
 

@@ -27,6 +27,24 @@ def _get_x_coordinates(canvas, tag):
 def _get_y_coordinates(canvas, tag):
     return _get_coordinates_by_dimension(canvas, tag, dimension='y')
 
+def _get_coordinates_by_dimension(canvas, tag, dimension='x'):
+    '''
+    updates the x and y position of all shapes that have been tagged
+    with the tag argument
+    '''
+    if dimension == 'x':
+        pos = 0
+    else:
+        pos = 1
+    shape_ids = canvas.find_withtag(tag)
+    coords = []
+    for id in shape_ids:
+        shape_coords = _get_coordinates(canvas, id)
+        for i in range(0, len(shape_coords)):
+            if i % 2 == pos:
+                coords.append(shape_coords[i])
+    return coords
+
 def make_circle(canvas, center, radius, color='#FF4136', tag=None, stroke_width=2, outline=None):
     make_oval(
         canvas, center, radius, radius, color=color, tag=tag,
@@ -90,6 +108,8 @@ def make_poly_oval(canvas, center, radius_x, radius_y, color='#FF4136', tag=None
     )
 
 def rotate(canvas, tag, degrees=5, origin=None):
+    # NOTE: This rotate function only works on POLYGONS
+    # DOES NOT WORK ON circles or ovals
     if origin is None:
         # calculate reasonable origin
         top = get_top(canvas, tag)
@@ -129,33 +149,6 @@ def make_line(canvas, coordinates, curvy=False, width=2, tag=None):
         width=width, 
         smooth=curvy,
         tag=tag)
-    
-def _get_coordinates_by_dimension(canvas, tag, dimension='x'):
-    '''
-    updates the x and y position of all shapes that have been tagged
-    with the tag argument
-    '''
-    if dimension == 'x':
-        pos = 0
-    else:
-        pos = 1
-    shape_ids = canvas.find_withtag(tag)
-    coords = []
-    for id in shape_ids:
-        shape_coords = _get_coordinates(canvas, id)
-        for i in range(0, len(shape_coords)):
-            if i % 2 == pos:
-                coords.append(shape_coords[i])
-    return coords
-
-def update_position(canvas, tag, x=2, y=0):
-    '''
-    updates the x and y position of all shapes that have been tagged
-    with the tag argument
-    '''
-    shape_ids = canvas.find_withtag(tag)
-    for id in shape_ids:
-        _update_position_by_id(canvas, id, x, y)
 
 def get_left(canvas, tag):
     '''
@@ -255,3 +248,30 @@ def make_image(
     # 3. draw image on canvas:
     canvas.create_image(*position, image=tkinter_image, anchor=anchor, **kwargs)
 
+def get_tag_from_x_y_coordinate(canvas, x, y):
+    try:
+        shape_id = canvas.find_closest(x, y) # get the top shape
+        if shape_id:
+            tags = canvas.gettags(shape_id)
+            if len(tags) > 0:
+                # print(tags)
+                return tags[0]
+        return None
+    except:
+        print('error: none found')
+        return None
+
+def update_position_by_tag(canvas, tag, x=2, y=0):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        _update_position_by_id(canvas, id, x, y)
+
+def update_fill_by_tag(canvas, tag, color):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        canvas.itemconfig(id, fill=color)
+
+def delete_by_tag(canvas, tag):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        canvas.delete(id)

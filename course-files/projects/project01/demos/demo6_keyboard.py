@@ -6,6 +6,7 @@ import helpers
 import utilities
 import time
 import random
+import keycodes
 
 gui = Tk()
 gui.title('Tour of options...')
@@ -17,10 +18,6 @@ canvas = Canvas(gui, width=window_width, height=window_height, background='white
 canvas.pack()
 
 ########################## YOUR CODE BELOW THIS LINE ##############################
-UP_KEY = 8320768
-DOWN_KEY = 8255233
-LEFT_KEY = 8124162
-RIGHT_KEY = 8189699
 MOUSE_CLICK = '<Button-1>'
 KEY_PRESS = '<Key>'
 canvas.create_text(
@@ -40,18 +37,19 @@ def make_circle(event):
     canvas.focus_set()
 
 def move_circle(event):
-    # print(event)
+    # NOTE: Because Windows and Mac have different keycodes, use the functions
+    # from the keycode module to detect the different keys
     distance = 10
-    if event.keycode == UP_KEY:
-        utilities.update_position(canvas, tag='circle', x=0, y=-distance)
-    elif event.keycode == DOWN_KEY:
-        utilities.update_position(canvas, tag='circle', x=0, y=distance)
-    elif event.keycode == LEFT_KEY:
-        utilities.update_position(canvas, tag='circle', x=-distance, y=0)
-    elif event.keycode == RIGHT_KEY:
-        utilities.update_position(canvas, tag='circle', x=distance, y=0)
+    if event.keycode == keycodes.get_up_keycode():
+        utilities.update_position_by_tag(canvas, tag='circle', x=0, y=-distance)
+    elif event.keycode == keycodes.get_down_keycode():
+        utilities.update_position_by_tag(canvas, tag='circle', x=0, y=distance)
+    elif event.keycode == keycodes.get_left_keycode():
+        utilities.update_position_by_tag(canvas, tag='circle', x=-distance, y=0)
+    elif event.keycode == keycodes.get_right_keycode():
+        utilities.update_position_by_tag(canvas, tag='circle', x=distance, y=0)
     else:
-        print(event.keycode)
+        print('Keycode:', event.keycode, 'not handled by this if/elif/else statement.')
 
 canvas.bind(MOUSE_CLICK, make_circle) 
 canvas.bind(KEY_PRESS, move_circle)

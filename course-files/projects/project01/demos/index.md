@@ -48,8 +48,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo1_update_attributes.py">demo1_update_attributes.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
-            <td>1.1KB</td>
+            <td align="right">2/11/2020 12:56 PM</td>
+            <td>1013.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo1_update_attributes.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -90,8 +90,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo4_rightclick_event.py">demo4_rightclick_event.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
-            <td>1.3KB</td>
+            <td align="right">2/11/2020 12:58 PM</td>
+            <td>1.2KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo4_rightclick_event.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -104,7 +104,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo5_drag_and_animate.py">demo5_drag_and_animate.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
+            <td align="right">2/11/2020 12:50 PM</td>
             <td>1.5KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo5_drag_and_animate.py"
@@ -118,8 +118,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo6_keyboard.py">demo6_keyboard.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
-            <td>1.7KB</td>
+            <td align="right">2/11/2020 12:50 PM</td>
+            <td>1.9KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo6_keyboard.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -132,7 +132,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo7_layout.py">demo7_layout.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
+            <td align="right">2/11/2020 12:20 PM</td>
             <td>1.6KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo7_layout.py"
@@ -146,7 +146,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo7a_layout.py">demo7a_layout.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
+            <td align="right">2/11/2020 12:50 PM</td>
             <td>1.6KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo7a_layout.py"
@@ -160,7 +160,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo8_just_move_one_keyboard.py">demo8_just_move_one_keyboard.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
+            <td align="right">2/11/2020 12:50 PM</td>
             <td>2.4KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo8_just_move_one_keyboard.py"
@@ -174,8 +174,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo9_just_drag_one.py">demo9_just_drag_one.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
-            <td>2.7KB</td>
+            <td align="right">2/11/2020 12:50 PM</td>
+            <td>2.4KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/demo9_just_drag_one.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -200,10 +200,24 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
+                    <a href="keycodes.py">keycodes.py</a>
+            </td>
+            <td align="right">2/11/2020 12:18 PM</td>
+            <td>634.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/keycodes.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">2/5/2020 2:49 PM</td>
-            <td>7.5KB</td>
+            <td align="right">2/11/2020 12:58 PM</td>
+            <td>8.0KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
