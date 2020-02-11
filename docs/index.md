@@ -245,6 +245,7 @@ permalink: /
             <td></td>
             <td>
                 <a href="https://drive.google.com/drive/u/0/folders/1YuNTuYVbNpypQ5RCu4v27cxvaM7zUlZS" class="label" target="_blank">Exam 1 Practice <i class="fas fa-link"></i></a>
+                <a href="course-files/practice_exams/midterm.zip" class="label">Solutions <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #7 -->

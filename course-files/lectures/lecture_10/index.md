@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="event_demos">event_demos</a></td>
-            <td align="right">2/6/2020 12:21 PM</td>
-            <td>480.0B</td>
+            <td align="right">2/6/2020 12:30 PM</td>
+            <td>512.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
