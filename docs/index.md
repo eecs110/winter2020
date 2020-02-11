@@ -231,7 +231,9 @@ permalink: /
             <td>
                 <strong>Tu Feb 11</strong><br>
                 Exam 1 review<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1AFBUBUyxQWtX-3W6z1AdTqTickEip9FeHfr-w_hKbGw/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_11.zip">lecture files</a> 
             </td>
             <td></td>
             <td></td>
@@ -281,9 +283,7 @@ permalink: /
                     <a href="https://www.py4e.com/lessons/dictionary">videos</a> | <a href="https://www.py4e.com/html3/09-dictionaries">textbook</a></li>
                 </ol>
             </td>
-            <td>
-                <span class="label label-purple">Project 1 </span>
-            </td>
+            <td></td>
         </tr>
         <!-- WEEK #8 -->
         <tr>
@@ -300,7 +300,9 @@ permalink: /
                     </li>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <span class="label label-purple">Project 1 </span>
+            </td>
         </tr>
         <tr>
             <td></td>

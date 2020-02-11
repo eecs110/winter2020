@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Conditionals
+title: Project01
 nav_exclude: True
 ---
 
-# Conditionals
+# Project01
 
-[course-files/practice_exams/midterm/conditionals/](.)
+[course-files/projects/project01/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -27,17 +27,26 @@ nav_exclude: True
             <td>&nbsp;</td>
         </tr>
 
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="demos">demos</a></td>
+            <td align="right">2/5/2020 2:49 PM</td>
+            <td>544.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="exercise_01.py">exercise_01.py</a>
+                    <a href="helpers.py">helpers.py</a>
             </td>
-            <td align="right">2/11/2020 10:40 AM</td>
-            <td>536.0B</td>
+            <td align="right">2/5/2020 2:49 PM</td>
+            <td>1023.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_01.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/helpers.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -46,12 +55,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="exercise_02.py">exercise_02.py</a>
+                    <a href="main.py">main.py</a>
             </td>
-            <td align="right">2/11/2020 10:40 AM</td>
-            <td>383.0B</td>
+            <td align="right">2/5/2020 2:49 PM</td>
+            <td>646.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_02.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/main.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -60,12 +69,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="exercise_03.py">exercise_03.py</a>
+                    <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">2/11/2020 10:40 AM</td>
-            <td>460.0B</td>
+            <td align="right">2/5/2020 2:49 PM</td>
+            <td>5.4KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_03.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

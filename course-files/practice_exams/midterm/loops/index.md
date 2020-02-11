@@ -34,7 +34,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_01.py">exercise_01.py</a>
             </td>
-            <td align="right">2/2/2019 5:55 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>156.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_01.py"
@@ -48,7 +48,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_02.py">exercise_02.py</a>
             </td>
-            <td align="right">2/2/2019 5:55 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>379.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_02.py"
@@ -62,7 +62,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_03.py">exercise_03.py</a>
             </td>
-            <td align="right">2/2/2019 5:56 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>473.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_03.py"
@@ -76,7 +76,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_04.py">exercise_04.py</a>
             </td>
-            <td align="right">2/2/2019 6:02 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>538.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_04.py"
@@ -90,7 +90,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_05.py">exercise_05.py</a>
             </td>
-            <td align="right">2/2/2019 6:05 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>565.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_05.py"
@@ -104,7 +104,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_06.py">exercise_06.py</a>
             </td>
-            <td align="right">2/2/2019 6:11 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>695.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_06.py"
@@ -118,7 +118,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_07.py">exercise_07.py</a>
             </td>
-            <td align="right">2/2/2019 6:12 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>793.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_07.py"
@@ -132,7 +132,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="exercise_08.py">exercise_08.py</a>
             </td>
-            <td align="right">2/2/2019 6:15 PM</td>
+            <td align="right">2/11/2020 10:40 AM</td>
             <td>563.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/loops/exercise_08.py"
