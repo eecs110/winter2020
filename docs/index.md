@@ -255,8 +255,10 @@ permalink: /
             <td>Week 7</td>
             <td>
                 <strong>Tu Feb 18</strong><br>
-                     Data: Strings and files<br>
-                <span class="tbd">slides | lecture files</span>
+                Data: Strings and files<br>
+                <a href="https://docs.google.com/presentation/d/1CDjBZCbtMmZHSnAsHB2-iYW_lzAgCySXzcILQ9EIRUE/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_12.zip">lecture files</a>
             </td>
             <td>
                 <ol>
