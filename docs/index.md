@@ -330,7 +330,9 @@ permalink: /
                 <span class="tbd">slides | lecture files</span>
             </td>
             <td></td>
-            <td></td>
+            <td>
+                <span class="label label-green">Homework 5 </span>
+            </td>
         </tr>
         <tr>
             <td></td>
