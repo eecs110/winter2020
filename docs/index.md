@@ -7,6 +7,7 @@ nav_order: 2
 title: Schedule
 permalink: /
 ---
+
 # Schedule
 > This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on <strong>Thursday</strong> at 11:59PM.
 
