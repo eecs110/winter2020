@@ -278,7 +278,10 @@ permalink: /
             <td>
                 <strong>Th Feb 20</strong><br>
                 Data: Dictionaries and lists<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1F17GD2Pt3Wu5reJ5lGQYFoJ0VgtCV6VWTGyQIGA2PHY/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_13.zip">lecture files</a>
+                
             </td>
             <td>
                 <ol>
