@@ -297,7 +297,9 @@ permalink: /
             <td>
                 <strong>Tu Feb 25</strong><br>
                 Data: Dictionary algorithms<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1oaDuis8RibVoLyw0LKT6YuvClu1mtN9y54dWvu7pEws/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_14.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -335,7 +337,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-green">Homework 5 </span>
+                <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
             </td>
         </tr>
         <tr>

@@ -34,8 +34,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="homework">homework</a></td>
-            <td align="right">1/30/2020 12:37 PM</td>
-            <td>384.0B</td>
+            <td align="right">2/22/2020 10:32 AM</td>
+            <td>448.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -43,8 +43,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lectures">lectures</a></td>
-            <td align="right">2/20/2020 8:46 AM</td>
-            <td>864.0B</td>
+            <td align="right">2/22/2020 10:32 AM</td>
+            <td>928.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
