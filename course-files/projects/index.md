@@ -38,6 +38,15 @@ nav_exclude: False
             <td>256.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="project_02">project_02</a></td>
+            <td align="right">12/17/2019 5:02 PM</td>
+            <td>320.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file-archive"></i>
@@ -45,8 +54,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="project01.zip">project01.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
-            <td>14.3KB</td>
+            <td align="right">2/25/2020 8:57 AM</td>
+            <td>14.7KB</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="project_02.zip">project_02.zip</a>
+            </td>
+            <td align="right">2/25/2020 8:57 AM</td>
+            <td>11.4KB</td>
             <td>
             </td>
         </tr>

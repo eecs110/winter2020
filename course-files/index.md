@@ -43,8 +43,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lectures">lectures</a></td>
-            <td align="right">2/22/2020 10:32 AM</td>
-            <td>928.0B</td>
+            <td align="right">2/25/2020 8:57 AM</td>
+            <td>992.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -61,8 +61,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="projects">projects</a></td>
-            <td align="right">2/11/2020 11:48 AM</td>
-            <td>160.0B</td>
+            <td align="right">2/25/2020 8:57 AM</td>
+            <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>

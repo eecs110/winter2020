@@ -34,10 +34,24 @@ nav_exclude: True
             <td nowrap>
                     <a href="00_warmup_florida.py">00_warmup_florida.py</a>
             </td>
-            <td align="right">12/17/2019 4:56 PM</td>
-            <td>797.0B</td>
+            <td align="right">2/25/2020 8:56 AM</td>
+            <td>905.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/answers/00_warmup_florida.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="00_warmup_florida_weird.py">00_warmup_florida_weird.py</a>
+            </td>
+            <td align="right">2/25/2020 8:54 AM</td>
+            <td>1.5KB</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/answers/00_warmup_florida_weird.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -140,8 +154,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">12/17/2019 4:56 PM</td>
-            <td>450.0B</td>
+            <td align="right">2/25/2020 8:47 AM</td>
+            <td>8.9KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/answers/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>

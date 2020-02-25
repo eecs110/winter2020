@@ -216,8 +216,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">2/11/2020 12:58 PM</td>
-            <td>8.0KB</td>
+            <td align="right">2/25/2020 8:48 AM</td>
+            <td>8.7KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project01/demos/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>

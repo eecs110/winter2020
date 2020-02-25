@@ -116,6 +116,9 @@ def get_width(canvas, tag):
     x_coords = _get_x_coordinates(canvas, tag)
     return max(*x_coords) - min(*x_coords)
 
+def get_center(canvas, tag):
+    return get_width(canvas, tag) / 2 + get_left(canvas, tag)
+
 def get_height(canvas, tag):
     '''
     returns the height of the shape group
@@ -183,3 +186,46 @@ def make_image(
     # 3. draw image on canvas:
     canvas.create_image(*position, image=tkinter_image, anchor=anchor, **kwargs)
 
+def delete_by_tag(canvas, tag):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        canvas.delete(id)
+
+def get_tag_from_x_y_coordinate(canvas, x, y):
+    try:
+        shape_id = canvas.find_closest(x, y) # get the top shape
+        if shape_id:
+            tags = canvas.gettags(shape_id)
+            if len(tags) > 0:
+                # print(tags)
+                return tags[0]
+        return None
+    except:
+        print('error: none found')
+        return None
+
+def update_position_by_tag(canvas, tag, x=2, y=0):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        _update_position_by_id(canvas, id, x, y)
+
+def update_fill_by_tag(canvas, tag, color):
+    ids = canvas.find_withtag(tag)
+    for id in ids:
+        canvas.itemconfig(id, fill=color)
+        
+def flip(canvas, tag):
+    center = get_center(canvas, tag)
+    width = get_width(canvas, tag)
+    shape_ids = canvas.find_withtag(tag)
+    for shape_id in shape_ids:
+        flipped_coordinates = []
+        shape_coords = _get_coordinates(canvas, shape_id)
+        counter = 0
+        for num in shape_coords:
+            if counter % 2 == 0:
+                flipped_coordinates.append(-num + center[0] + width/2)
+            else:
+                flipped_coordinates.append(num)
+            counter += 1
+        _set_coordinates(canvas, shape_id, flipped_coordinates)

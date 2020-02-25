@@ -81,7 +81,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
+            <td align="right">2/25/2020 8:57 AM</td>
             <td>602.0B</td>
             <td>
             </td>
@@ -93,7 +93,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
+            <td align="right">2/25/2020 8:57 AM</td>
             <td>3.5KB</td>
             <td>
             </td>
@@ -105,7 +105,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw03.zip">hw03.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
+            <td align="right">2/25/2020 8:57 AM</td>
             <td>2.7KB</td>
             <td>
             </td>
@@ -117,7 +117,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw04.zip">hw04.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
+            <td align="right">2/25/2020 8:57 AM</td>
             <td>2.6KB</td>
             <td>
             </td>
@@ -129,7 +129,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw05.zip">hw05.zip</a>
             </td>
-            <td align="right">2/22/2020 10:32 AM</td>
+            <td align="right">2/25/2020 8:57 AM</td>
             <td>1018.0B</td>
             <td>
             </td>
