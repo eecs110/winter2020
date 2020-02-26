@@ -309,7 +309,6 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <a href="https://docs.google.com/document/d/16DKHCKL4qQOxsXHzQ0rk244YOQ3kWCk49izeDpIfcOE/edit?usp=sharing" target="_blank" class="label label-purple">Project 1 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr>
@@ -325,7 +324,9 @@ permalink: /
                     <a href="https://www.py4e.com/lessons/servces">videos</a> | <a href="https://www.py4e.com/html3/13-web">textbook</a></li>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <a href="https://docs.google.com/document/d/16DKHCKL4qQOxsXHzQ0rk244YOQ3kWCk49izeDpIfcOE/edit?usp=sharing" target="_blank" class="label label-purple">Project 1 <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- WEEK #9 -->
         <tr>
@@ -337,7 +338,6 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
             </td>
         </tr>
         <tr>
@@ -348,7 +348,9 @@ permalink: /
                 <span class="tbd">slides | lecture files</span>
             </td>
             <td>TBD</td>
-            <td></td>
+            <td>
+                <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
+            </td>
         </tr>
         <!-- WEEK #10 -->
         <tr>
@@ -359,7 +361,6 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-green">Homework 6 </span>
             </td>
         </tr>
         <tr>
@@ -370,7 +371,9 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label">Exam Practice </span>
+
+                <span class="label label-green">Homework 6 </span>
+                <span class="label">Exam Practice</span>
             </td>
         </tr>
         <!-- FINALS WEEK -->
