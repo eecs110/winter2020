@@ -316,7 +316,9 @@ permalink: /
             <td>
                 <strong>Th Feb 27</strong><br>
                 Dictionaries + Intro to Pandas & Matplotlib<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1dIAllIr4qKsxT0RQmcPo06VXZMaaumL9d2ITI4SEC98/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_15.zip">lecture files</a>
             </td>
             <td>
                 <ol>
