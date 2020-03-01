@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="apis">apis</a></td>
-            <td align="right">3/1/2020 5:01 PM</td>
-            <td>352.0B</td>
+            <td align="right">3/1/2020 5:37 PM</td>
+            <td>384.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -75,20 +75,6 @@ nav_exclude: True
             <td>1.8KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/restaurant_finder.py"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="fab fa-lg fa-python"></i>
-            </td>
-            <td nowrap>
-                    <a href="spotify_sample.py">spotify_sample.py</a>
-            </td>
-            <td align="right">12/17/2019 5:02 PM</td>
-            <td>175.0B</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/spotify_sample.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

@@ -9,7 +9,11 @@ try:
     from apis import my_token
     API_TUTOR_TOKEN = my_token.API_TUTOR_TOKEN
 except:
-    raise Exception('Go to Canvas to get the token. Then replace lines 1-5 with API_TUTOR_TOKEN = "THE_CLASS_TOKEN"')
+    title = 'IMPORTANT: You Need an Access Token!'
+    error_message = '\n\n\n' + '*' * len(title) + '\n' + \
+        title + '\n' + '*' * len(title) + \
+        '\nNavigate to the CS110 Canvas website and open the Project 2 assignment description to get the token.\nThen replace lines 8-16 with API_TUTOR_TOKEN = "THE_CLASS_TOKEN"\n\n'
+    raise Exception(error_message)
 
 
 

@@ -48,8 +48,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="authentication.py">authentication.py</a>
             </td>
-            <td align="right">3/1/2020 11:56 AM</td>
-            <td>719.0B</td>
+            <td align="right">3/1/2020 5:48 PM</td>
+            <td>973.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/authentication.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
