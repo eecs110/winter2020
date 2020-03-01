@@ -386,7 +386,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-purple">Project 2</span>
+                <a href="course-files/projects/project_02/README" class="label label-purple">Project 2 <i class="fa fa-link"></i></a>
             </td>
         </tr>
     </tbody>
