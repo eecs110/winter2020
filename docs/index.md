@@ -375,7 +375,8 @@ permalink: /
             <td>
 
                 <span class="label label-green">Homework 6 </span>
-                <span class="label">Exam Practice</span>
+                <a href="https://drive.google.com/open?id=1OOOh5FaFb-1qA_X311NQod1gq9VKrprW" class="label" target="_blank">Exam 2 Practice <i class="fas fa-link"></i></a>
+                <a href="course-files/practice_exams/final.zip" class="label">Solutions <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- FINALS WEEK -->
