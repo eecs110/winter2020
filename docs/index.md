@@ -336,7 +336,9 @@ permalink: /
             <td>
                 <strong>Tu Mar 3</strong><br>
                 Intro to cloud-based data services<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1bWV1VXnwtP9fwxmBJGiwKOSv4mn37HSlRg3-7lI3GP8/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_16.zip">lecture files</a>
             </td>
             <td></td>
             <td>

@@ -56,7 +56,7 @@ def get_categories_abridged():
     return categories
 
 # retrieves data from any Spotify endpoint:
-def _send_get_request(url:str):
+def _issue_get_request(url:str):
     token = authentication.get_token('https://www.apitutor.org/yelp/key')
     request = urllib.request.Request(url, None, {
         'Authorization': 'Bearer ' + token
@@ -66,19 +66,11 @@ def _send_get_request(url:str):
             data = json.loads(response.read().decode())
             return data
     except urllib.error.HTTPError as e:
-        # give a good error message:
-        error = utilities.get_error_message(e, url)
-    raise Exception(error)
-       
+        error_message = e.read()
+        error_message = '\n' + str(e) + '\n' + str(json.loads(error_message)) + '\n'
+        raise Exception(error_message)
 
 def _simplify_businesses(data:list):
-    '''
-    * data (list): The original data list returned by the Yelp API
-    
-    Returns a simpler data structure for the (complex) data 
-    returned by Yelp. Only shows some of the most common
-    data fields.
-    '''
     def get_alias(item):
         return item['alias']
     simplified = []
@@ -102,13 +94,6 @@ def _simplify_businesses(data:list):
     return simplified
 
 def _simplify_comments(data:list):
-    '''
-    * data (list): The original data list returned by the Yelp API
-    
-    Returns a simpler data structure for the (complex) data 
-    returned by Yelp. Only shows some of the most common
-    data fields.
-    '''
     simplified = []
     for item in data['reviews']:
         review = {
@@ -121,54 +106,7 @@ def _simplify_comments(data:list):
         simplified.append(review)
     return simplified
 
-
-def _generate_business_search_url(location:str='Evanston, IL', limit:int=10, term:str=None, categories:str=None, sort_by:str=None, price:int=None, open_now:str=None):
-    '''
-    Creates the URL that will be issued to the Yelp API:
-    
-        * location (str):   Location of the search
-        * limit (int):      An integer indicating how many records to return. Max of 50.
-        * term (str):       A search term
-        * categories (str): One or more comma-delimited categories to filter by.
-        * sort_by (str):    How to order search results. Options are: 
-                            best_match, rating, review_count, distance
-        * price (int):      How expensive 1, 2, 3, 4 or comma-delimited list, e.g.: 1,2
-        * open_now (str):   Set to 'true' if you only want the open restaurants
-
-    Returns a url (string).
-    '''
-    url = 'https://api.yelp.com/v3/businesses/search?location=' + \
-        urllib.parse.quote_plus(location) + '&limit=' + str(limit)
-    if term:
-        url += '&term=' + urllib.parse.quote_plus(term)
-    if categories:
-        tokens = categories.split(',')
-        all_categories = get_categories()
-        for token in tokens:
-            if token not in all_categories:
-                raise Exception('"' + token + '" is not a valid category because it isn\'t in the yelp.get_categories() list. Please make sure that the following categories are valid (with a comma separating each of them): ' + categories)
-        url += '&categories=' + categories
-    if sort_by:
-        if sort_by not in ['best_match', 'rating', 'review_count', 'distance']:
-            raise Exception(sort_by + " not in ['best_match', 'rating', 'review_count', 'distance']")
-        url += '&sort_by=' + urllib.parse.quote_plus(sort_by)
-    if price:
-        price = str(price)
-        prices = []
-        tokens = price.split(',')
-        for token in tokens:
-            token = token.strip()
-            if token not in ['1', '2', '3', '4']:
-                raise Exception('The price parameter can be 1, 2, 3, 4, or some comma-separated combination (e.g. 1,2,3). You used: ' + str(price))
-            prices.append(token.strip())
-        prices = sorted(prices)
-        prices = ','.join(prices)
-        url += '&price=' + prices  #1, 2, 3, 4 -or- 1,2 (for more than one)
-    if open_now:
-        url += '&open_now=true' 
-    return url
-
-def get_businesses(location:str='Evanston, IL', limit:int=10, term:str=None, categories:str=None, sort_by:str=None, price:int=None, open_now:str=None, simplify:bool=True):
+def get_businesses(location:str='Evanston, IL', limit:int=20, term:str=None, categories:str=None, sort_by:str=None, price:int=None, open_now:str=None, simplify:bool=True):
     '''
     Searches for Yelp businesses based on various search criteria, including:
     
@@ -185,34 +123,38 @@ def get_businesses(location:str='Evanston, IL', limit:int=10, term:str=None, cat
     Returns a list of businesses matching your search / ordering / limit criteria.
     '''
 
-    # generate the URL query string based on the arguments passed in by the user
-    url = _generate_business_search_url(
-        location=location, 
-        limit=limit, 
-        term=term, 
-        categories=categories, 
-        sort_by=sort_by, 
-        price=price, 
-        open_now=open_now
-    )
+    url = 'https://api.yelp.com/v3/businesses/search?location=' + \
+        urllib.parse.quote_plus(location) + '&limit=' + str(limit)
+    if term:
+        url += '&term=' + urllib.parse.quote_plus(term)
+    if categories:
+        url += '&categories=' + categories
+    if sort_by:
+        if sort_by not in ['best_match', 'rating', 'review_count', 'distance']:
+            raise Exception(sort_by + " not in ['best_match', 'rating', 'review_count', 'distance']")
+        url += '&sort_by=' + urllib.parse.quote_plus(sort_by)
+    if price:
+        url += '&price=' + str(price)  #1, 2, 3, 4 -or- 1,2 (for more than one)
+    if open_now:
+        url += '&open_now=true' 
+
     print(url)       
 
-    data = _send_get_request(url)
+    data = _issue_get_request(url)
     if not simplify:
         return data
     return _simplify_businesses(data)
 
-def get_reviews(business_id:str, simplify:bool=True):
+def get_reviews(business_id:int, simplify:bool=True):
     '''
     Retrieves a list of Yelp reviews for a particular business.
-        * business_id (str): [Required] A character string corresponding to the business id.
-          Example: 0b6AU869xq6KXdK3NtVJnw
+        * business_id (int): [Required] An integer corresponding to the business id.
         * simplify (bool):   Indicates whether you want to simplify the data that is returned.
     Returns a list of reviews.
     '''
     # https://www.yelp.com/developers/documentation/v3/business_reviews
     url = 'https://api.yelp.com/v3/businesses/' + business_id + '/reviews'
-    data = _send_get_request(url)
+    data = _issue_get_request(url)
     if not simplify:
         return data
     return _simplify_comments(data)
@@ -221,7 +163,7 @@ def get_formatted_business_table(business:dict, reviews:list=None, to_html=True)
     '''
     Makes a nice formatted HTML table of tracks. Good for writing to an 
     HTML file or for sending in an email.
-        * business(dict): [Required] A dictionary that represents a business
+        * tracks(list): [Required] A list of tracks
     Returns an HTML table as a string 
     '''
     if not business:
@@ -251,21 +193,17 @@ def get_formatted_business_table(business:dict, reviews:list=None, to_html=True)
     }
     
     # reviews table:
-    if reviews:
-        df_reviews = get_dataframe(reviews)
-        df_reviews = df_reviews[['time_created', 'rating', 'text']]
-        review_formatters={
-            'time_created': '{{:<{}s}}'.format(df_reviews['time_created'].str.len().max()).format,
-            'text': '{{:<{}s}}'.format(df_reviews['text'].str.len().max()).format
-        }
+    df_reviews = get_dataframe(reviews)
+    df_reviews = df_reviews[['time_created', 'rating', 'text']]
+    review_formatters={
+        'time_created': '{{:<{}s}}'.format(df_reviews['time_created'].str.len().max()).format,
+        'text': '{{:<{}s}}'.format(df_reviews['text'].str.len().max()).format
+    }
 
     if to_html:
         table_1 = df_business.to_html(formatters=business_formatters, escape=False, header=None, index=False)
-        if reviews:
-            table_2 = df_reviews.to_html(formatters=review_formatters, escape=False, index=False)
-        else:
-            table_2 = 'None Available'
-
+        table_2 = df_reviews.to_html(formatters=review_formatters, escape=False, index=False)
+    
         html = '<h1>' + business['name'].upper() + '</h1>' + \
             table_1 + '<h2>Reviews</h2>' + table_2
         html = html.replace('style="text-align: right;"', '')
@@ -277,10 +215,7 @@ def get_formatted_business_table(business:dict, reviews:list=None, to_html=True)
         return html
     else:
         table_1 = df_business.to_string(formatters=business_formatters, justify='left', index=False, header=None)
-        if reviews:
-            table_2 = df_reviews.to_string(formatters=review_formatters, justify='left', index=False, header=None)
-        else:
-            table_2 = 'None Available'
+        table_2 = df_reviews.to_string(formatters=review_formatters, justify='left', index=False, header=None)
         row_len = 72
         pd.set_option('display.max_colwidth', 80)
         return (

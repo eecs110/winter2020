@@ -6,7 +6,7 @@ nav_exclude: True
 
 # Apis
 
-[course-files/projects/project_02/apis/](.)
+[course-files/lectures/lecture_16/notebooks/apis/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -34,10 +34,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="__init__.py">__init__.py</a>
             </td>
-            <td align="right">3/1/2020 11:56 AM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>0.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/__init__.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/__init__.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -48,10 +48,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="authentication.py">authentication.py</a>
             </td>
-            <td align="right">3/1/2020 5:48 PM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>973.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/authentication.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/authentication.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -62,10 +62,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="sendgrid.py">sendgrid.py</a>
             </td>
-            <td align="right">3/1/2020 11:56 AM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>1.2KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/sendgrid.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/sendgrid.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -76,10 +76,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="spotify.py">spotify.py</a>
             </td>
-            <td align="right">3/1/2020 5:36 PM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>12.4KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/spotify.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/spotify.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -90,10 +90,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">3/1/2020 11:56 AM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>2.0KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/utilities.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -104,10 +104,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="yelp.py">yelp.py</a>
             </td>
-            <td align="right">3/3/2020 9:58 AM</td>
+            <td align="right">3/3/2020 9:57 AM</td>
             <td>11.9KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/yelp.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/yelp.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -118,10 +118,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="youtube.py">youtube.py</a>
             </td>
-            <td align="right">3/1/2020 11:56 AM</td>
+            <td align="right">3/3/2020 9:04 AM</td>
             <td>2.1KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/youtube.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/notebooks/apis/youtube.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
