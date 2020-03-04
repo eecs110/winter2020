@@ -34,7 +34,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="__init__.py">__init__.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
+            <td align="right">3/3/2020 8:18 PM</td>
             <td>0.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/__init__.py"
@@ -48,8 +48,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="authentication.py">authentication.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
-            <td>685.0B</td>
+            <td align="right">3/3/2020 8:18 PM</td>
+            <td>973.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/authentication.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -62,7 +62,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="sendgrid.py">sendgrid.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
+            <td align="right">3/3/2020 8:18 PM</td>
             <td>1.2KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/sendgrid.py"
@@ -76,8 +76,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="spotify.py">spotify.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
-            <td>12.1KB</td>
+            <td align="right">3/3/2020 8:18 PM</td>
+            <td>12.4KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/spotify.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -90,8 +90,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
-            <td>1.7KB</td>
+            <td align="right">3/3/2020 8:18 PM</td>
+            <td>2.0KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -104,8 +104,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="yelp.py">yelp.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
-            <td>9.3KB</td>
+            <td align="right">3/3/2020 8:18 PM</td>
+            <td>11.9KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/yelp.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -118,7 +118,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="youtube.py">youtube.py</a>
             </td>
-            <td align="right">3/3/2020 1:26 PM</td>
+            <td align="right">3/3/2020 8:18 PM</td>
             <td>2.1KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/apis/youtube.py"

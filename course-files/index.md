@@ -33,9 +33,18 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
+            <td><a href="administrative">administrative</a></td>
+            <td align="right">3/3/2020 8:15 PM</td>
+            <td>160.0B</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
             <td><a href="homework">homework</a></td>
-            <td align="right">2/22/2020 10:32 AM</td>
-            <td>448.0B</td>
+            <td align="right">3/3/2020 8:42 PM</td>
+            <td>512.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>

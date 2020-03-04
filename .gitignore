@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 drafts
+administrative
 solution
 solutions
 exams

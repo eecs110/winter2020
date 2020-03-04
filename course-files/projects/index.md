@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 parent: Course Files
-nav_order: 5
+nav_order: 6
 nav_exclude: False
 ---
 
@@ -54,7 +54,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="project01.zip">project01.zip</a>
             </td>
-            <td align="right">3/3/2020 1:32 PM</td>
+            <td align="right">3/3/2020 8:42 PM</td>
             <td>14.7KB</td>
             <td>
             </td>
@@ -66,7 +66,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="project_02.zip">project_02.zip</a>
             </td>
-            <td align="right">3/3/2020 1:32 PM</td>
+            <td align="right">3/3/2020 8:42 PM</td>
             <td>12.3KB</td>
             <td>
             </td>

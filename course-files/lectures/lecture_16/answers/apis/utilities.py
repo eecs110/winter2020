@@ -1,5 +1,8 @@
 import collections
 import pandas as pd
+import json
+import sys
+import traceback
 
 
 def _flatten(d:dict, parent_key:str='', sep:str='_'):
@@ -56,3 +59,12 @@ def get_jupyter_styling():
             .rendered_html td, .rendered_html th { text-align: left !important; }
         </style>
         """
+
+def get_error_message(e, url=None):
+    errors = []
+    if url:
+        errors.append('This URL is invalid: ' + url)
+    tokens = traceback.format_exc().split('\n')
+    if len(tokens):
+        errors.extend(tokens[0:3])
+    return '\n'.join(errors)

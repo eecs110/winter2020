@@ -3,6 +3,7 @@ EXCLUDED = [
     #'homework',
     #'lectures',
     'exams',
+    'administrative'
     #'practice_exams',
     'tutorials',
     'build.sh',

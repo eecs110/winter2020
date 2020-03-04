@@ -38,7 +38,7 @@ def get_tracks(search_term:str, simplify:bool=True):
         return data
     return _simplify_tracks(data['tracks']['items'])
 
-def get_tracks_by_artist(artist_id:str, simplify:bool=True):
+def get_top_tracks_by_artist(artist_id:str, simplify:bool=True):
     '''
     Retrieves a list of Spotify "top tracks" by an artist
         * artist_id (str): [Required] The Spotify id of the artist.
@@ -52,7 +52,7 @@ def get_tracks_by_artist(artist_id:str, simplify:bool=True):
         return data
     return _simplify_tracks(data['tracks'])
 
-def get_tracks_by_playlist(playlist_id:str, simplify:bool=False):
+def get_tracks_by_playlist(playlist_id:str, simplify:bool=True):
     '''
     Retrieves a list of the tracks associated with a playlist_id
         * playlist_id (str): [Required] The id of the Spotify playlist.
@@ -134,7 +134,7 @@ def get_audio_features_by_track(track_id:str):
     url = 'https://api.spotify.com/v1/audio-features/' + track_id
     return _issue_get_request(url)
 
-def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], simplify=False): 
+def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], simplify:bool=True): 
     '''
     Spotify's way of providing recommendations. One or more params is required: 
     artist_ids, track_ids, or genres. Up to 5 seed values may be provided in 
@@ -147,6 +147,16 @@ def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], si
     '''
     if not artist_ids and not track_ids and not genres:
         raise Exception('Either artist_ids or track_ids or genres required')
+    
+    # check if seeds <= 5:
+    artist_ids = artist_ids or []
+    track_ids = track_ids or []
+    genres = genres or []
+    if len(artist_ids) + len(track_ids) + len(genres) > 5:
+        error = 'You can only have 5 "seed values" in your recommendations query.\n' + \
+            'In other words, (len(artist_ids) + len(track_ids) + len(genres)) must be less than or equal to 5.'
+        raise Exception(error)
+    
     params = []
     if artist_ids:
         params.append('seed_artists=' + ','.join(artist_ids))
@@ -211,13 +221,8 @@ def get_formatted_tracklist_table_html(tracks:list):
     
     def image_formatter(im):
         return f'<img src="{im}" />'
-
-    def link_formatter(link):
-        return f'<a href="{link}" target="_blank">{link}</a>'
-
     formatters={
-        'album_image_url_small': image_formatter,
-        'share_url': link_formatter
+        'album_image_url_small': image_formatter
     }
     playlist_table = df.to_html(formatters=formatters, escape=False, index=False)
     playlist_table = playlist_table.replace('style="text-align: right;"', '')
@@ -238,9 +243,14 @@ def _issue_get_request(url):
     request = urllib.request.Request(url, None, {
         'Authorization': 'Bearer ' + token
     })
-    with urllib.request.urlopen(request) as response:
-        data = json.loads(response.read().decode())
-        return data
+    try:
+        with urllib.request.urlopen(request) as response:
+            data = json.loads(response.read().decode())
+            return data
+    except urllib.error.HTTPError as e:
+        # give a good error message:
+        error = utilities.get_error_message(e, url)
+    raise Exception(error)
 
 def _simplify_tracks(tracks:list):
     try:
@@ -304,26 +314,18 @@ def _simplify_artists(artists:list):
 
 def _simplify_playlists(playlists:list):
     try:
-        playlists[0]
-    except Exception:
-        return playlists
-    simplified = []
-    for item in playlists:
-        simplified.append({ 
-            'id': item['id'], 
-            'name': item['name'], 
-            'owner_display_name': item['owner']['display_name'],
-            'owner_id': item['owner']['id'],
-            'share_url': 'https://open.spotify.com/playlist/' + item['id']
-        })
-    return simplified
-
-def _flatten(d:dict, parent_key:str='', sep:str='_'):
-    items = []
-    for k, v in d.items():
-        new_key = parent_key + sep + k if parent_key else k
-        if isinstance(v, collections.MutableMapping):
-            items.extend(_flatten(v, new_key, sep=sep).items())
-        else:
-            items.append((new_key, v))
-    return dict(items)
+        simplified = []
+        for item in playlists:
+            simplified.append({ 
+                'id': item['id'], 
+                'name': item['name'], 
+                'owner_display_name': item['owner']['display_name'],
+                'owner_id': item['owner']['id'],
+                'share_url': 'https://open.spotify.com/playlist/' + item['id']
+            })
+        return simplified
+    except Exception as e:
+        # give a good error message:
+        error = 'The following playlist data structure could not be flattened:\n' + str(playlists)
+        # print(error)
+        raise Exception(error)
