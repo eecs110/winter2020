@@ -351,7 +351,7 @@ permalink: /
                 Intro to the HTML file format: for outputting data presentations<br>
                 <span class="tbd">slides | lecture files</span>
             </td>
-            <td>TBD</td>
+            <td>Note: Today we're going to continue working through the examples from Tuesday's lecture, and go over a few final concepts.</td>
             <td>
                 <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
             </td>
