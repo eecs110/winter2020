@@ -353,7 +353,12 @@ permalink: /
                 &bull;
                 <a href="course-files/lectures/lecture_17.zip">lecture files</a>
             </td>
-            <td>Note: Today we're going to continue working through the examples from Tuesday's lecture, and go over one final concept (template strings).</td>
+            <td>Note: Today we're going to:
+                <ol>
+                    <li>continue working through the examples from Tuesday</li> 
+                    <li>learn about template strings</li>
+                </ol>
+            </td>
             <td>
                 <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
             </td>
