@@ -349,9 +349,11 @@ permalink: /
             <td>
                 <strong>Th Mar 5</strong><br>
                 Intro to the HTML file format: for outputting data presentations<br>
-                <span class="tbd">slides | lecture files</span>
+                <a href="https://docs.google.com/presentation/d/1wWSkwrCgvzPqlMZIjsn0TVdWPuUo3b5AVho5KC1hh28/edit?usp=sharing" target="_blank">slides</a> 
+                &bull;
+                <a href="course-files/lectures/lecture_17.zip">lecture files</a>
             </td>
-            <td>Note: Today we're going to continue working through the examples from Tuesday's lecture, and go over a few final concepts.</td>
+            <td>Note: Today we're going to continue working through the examples from Tuesday's lecture, and go over one final concept (template strings).</td>
             <td>
                 <a href="course-files/homework/hw05/README" class="label label-green">Homework 5 <i class="fas fa-link"></i></a>  
             </td>

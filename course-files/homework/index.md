@@ -79,8 +79,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="hw06">hw06</a></td>
-            <td align="right">3/3/2020 8:30 PM</td>
-            <td>96.0B</td>
+            <td align="right">3/3/2020 8:42 PM</td>
+            <td>128.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -90,7 +90,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
+            <td align="right">3/5/2020 10:01 AM</td>
             <td>602.0B</td>
             <td>
             </td>
@@ -102,7 +102,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
+            <td align="right">3/5/2020 10:01 AM</td>
             <td>3.5KB</td>
             <td>
             </td>
@@ -114,7 +114,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw03.zip">hw03.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
+            <td align="right">3/5/2020 10:01 AM</td>
             <td>2.7KB</td>
             <td>
             </td>
@@ -126,7 +126,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw04.zip">hw04.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
+            <td align="right">3/5/2020 10:01 AM</td>
             <td>2.6KB</td>
             <td>
             </td>
@@ -138,8 +138,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw05.zip">hw05.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
-            <td>1018.0B</td>
+            <td align="right">3/5/2020 10:01 AM</td>
+            <td>1019.0B</td>
             <td>
             </td>
         </tr>
@@ -150,7 +150,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw06.zip">hw06.zip</a>
             </td>
-            <td align="right">3/3/2020 8:42 PM</td>
+            <td align="right">3/5/2020 10:01 AM</td>
             <td>569.0B</td>
             <td>
             </td>
