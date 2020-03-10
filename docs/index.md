@@ -368,7 +368,8 @@ permalink: /
             <td>Week 10</td>
             <td>
                 <strong>Tu Mar 10</strong><br>
-                Exam Review
+                Review: Project 2 and Exam 2<br>
+                <a href="https://docs.google.com/presentation/d/1B3pfgBRU2KBfGxUG64DlWVcYg6OcITyxLLMsvgh0YwM/edit?usp=sharing" target="_blank">slides</a> 
             </td>
             <td></td>
             <td>
